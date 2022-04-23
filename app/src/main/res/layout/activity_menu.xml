@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainColor">
+        <TextView
+            android:id="@+id/menuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="메인 메뉴"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="250dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnCustomCare"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@color/mainColor"
+            android:layout_margin="20dp"
+            android:text="고객 관리"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:backgroundTint="@color/mainTintColor"/>
+        <Button
+            android:id="@+id/btnSalesCare"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@color/mainColor"
+            android:layout_margin="20dp"
+            android:text="매출 관리"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:backgroundTint="@color/mainTintColor"/>
+        <Button
+            android:id="@+id/btnProductCare"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:background="@color/mainColor"
+            android:layout_margin="20dp"
+            android:text="상품 관리"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:backgroundTint="@color/mainTintColor"/>
+    </LinearLayout>
+</LinearLayout>
